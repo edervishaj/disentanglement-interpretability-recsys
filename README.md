@@ -1,6 +1,6 @@
 # Are Representation Disentanglement and Interpretability Linked in Recommendation Models? A Critical Review and Reproducibility Study
 
-This repository contains the code for reproducing the experiments of our work "Are Representation Disentanglement and Interpretability Linked in Recommendation Models? A Critical Review and Reproducibility Study".
+This repository contains the code for reproducing the experiments of the paper "Are Representation Disentanglement and Interpretability Linked in Recommendation Models? A Critical Review and Reproducibility Study" by Ervin Dervishaj, Tuukka Ruotsalo, Maria Maistro and Christina Lioma, accepted at ECIR 2025.
 
 ## How to use this repo
 
@@ -10,7 +10,7 @@ In order to run the code and experiments, first setup a `Conda` environment with
 conda create -n py39 python=3.9 numpy pandas scipy matplotlib requests hyperopt tqdm seaborn requests cython pyyaml cxx-compiler lime pingouin shap=0.44 scikit-learn=1.0.2
 ```
 
-Install also these packages through pip:
+Install also these packages through `pip`:
 ```shell
 conda activate py39
 pip install recpack==0.3.5 tensorflow-probability tf-keras
